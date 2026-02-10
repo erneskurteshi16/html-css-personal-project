@@ -7,3 +7,65 @@
 .header h1{
   font-size: 100px;
 }
+
+.nav_link{
+    color: purple;
+    text-decoration: none;
+    padding: 20px;
+}
+.nav_link:hover{
+    background-color: red;
+    color: black;
+    border-radius: 20px;
+}
+
+#header-container{
+    width :90%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery{
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+    width: 450px;
+}
+
+
+.gallery:hover{
+    border: 1px solid rgb(78, 133, 252);
+}
+
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
