@@ -69,3 +69,20 @@ ul li a {
 ul li a:hover {
   background-color: #111111;
 }
+
+table{
+  width: 80%;
+}
+
+th{
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+
+td{
+  background-color: rgb(29, 29, 29);
+  color: white;
+  text-align: center;
+  padding: 110px;
+}
