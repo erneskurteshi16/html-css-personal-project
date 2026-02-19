@@ -30,10 +30,14 @@
 .gallery{
     margin: 10px;
     border: 1px solid black;
-    float: left;
-    width: 450px;
+    width: 350px;
 }
 
+#container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 .gallery:hover{
     border: 1px solid rgb(78, 133, 252);
@@ -71,18 +75,24 @@ ul li a:hover {
 }
 
 table{
-  width: 80%;
+  width: 100%;
 }
 
 th{
   background-color: black;
   color: white;
-  padding: 15px;
+  padding: 10px;
 }
 
 td{
   background-color: rgb(29, 29, 29);
   color: white;
   text-align: center;
-  padding: 110px;
+  padding: 50px;
+}
+
+#barcelona{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
